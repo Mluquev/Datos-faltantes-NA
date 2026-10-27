@@ -1,0 +1,29 @@
+{
+  "name": "datos-faltantes-na",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Estructura base para un infográfico motion graphics vertical con Remotion.",
+  "engines": {
+    "node": "22.x",
+    "npm": ">=10"
+  },
+  "scripts": {
+    "dev": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts Infografico out/infografico.mp4",
+    "lint": "eslint . && tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.539",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remotion": "4.0.539"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "@typescript-eslint/eslint-plugin": "8.72.1",
+    "@typescript-eslint/parser": "8.72.1",
+    "eslint": "9.39.1",
+    "typescript": "5.9.3"
+  }
+}
